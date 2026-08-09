@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YEOBAEK — 여백 | The Scent of Deep Silence</title>
+    <meta name="description" content="채우지 않음의 미학. 가장 한국적인 것이 가장 세계적인 것. YEOBAEK 프리미엄 니치 향수.">
+
+    <!-- OG & Social -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="YEOBAEK — 여백">
+    <meta property="og:description" content="채우지 않음의 미학. The Scent of Deep Silence.">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Theme & Favicon -->
+    <meta name="theme-color" content="#FFFFFF">
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='42' fill='none' stroke='%23C4A882' stroke-width='2'/></svg>">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&family=Cormorant:wght@300;400&family=Playfair+Display:wght@300;400&family=Noto+Serif+KR:wght@200;300;400&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="nav nav--light" id="nav">
+        <a href="#" class="nav-logo" id="navLogo">Yeobaek</a>
+        <button class="nav-hamburger" id="navHamburger" aria-label="메뉴 열기">
+            <span></span><span></span>
+        </button>
+        <div class="nav-links" id="navLinks">
+            <a class="nav-link" data-target="philosophy">Philosophy</a>
+            <a class="nav-link" data-target="collection">Collection</a>
+            <a class="nav-link" data-target="craft">Craft</a>
+            <a class="nav-link" data-target="space">Space</a>
+            <a class="nav-link" data-target="contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Progress Bar -->
+    <div class="progress-bar" id="progressBar"></div>
+
+    <!-- Section Indicators (right side dots) -->
+    <div class="section-indicator" id="sectionIndicator"></div>
+
+    <!-- Horizontal Guide (bottom) -->
+    <div class="h-guide">
+        <span class="h-guide-label">Scroll</span>
+        <div class="h-guide-track">
+            <div class="h-guide-thumb" id="hGuideThumb"></div>
+        </div>
+    </div>
+
+    <!-- ===== HORIZONTAL SCROLL CONTAINER ===== -->
+    <div class="scroll-container" id="scrollContainer">
+
+        <!-- ===== PANEL 1: HERO ===== -->
+        <section class="panel hero" id="panel-hero" data-nav="hero">
+            <div class="hero-bg">
+                <video class="hero-video" id="heroVideo" autoplay muted playsinline>
+                    <source src="mov/web/hero_moonjar.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="hero-content">
+                <p class="hero-brand">Premium Niche Fragrance</p>
+                <h1 class="hero-title" id="heroTitle">여백</h1>
+                <p class="hero-subtitle">채우지 않음의 미학</p>
+            </div>
+            <div class="hero-scroll-hint">Scroll</div>
+        </section>
+
+        <!-- ===== PANEL 2: PHILOSOPHY — MISSION ===== -->
+        <section class="panel philosophy-mission" id="panel-philosophy" data-nav="philosophy">
+            <p class="section-label reveal reveal-delay-1">Mission &amp; Values</p>
+            <blockquote class="mission-quote reveal reveal-delay-2">
+                We Craft Time,<br>Not Just Scent.
+            </blockquote>
+            <p class="mission-desc reveal reveal-delay-3">
+                우리는 향을 통해 복잡한 세상의 스위치를 끄고,<br>
+                오롯이 당신 내면과 마주하는 '사유의 시간'을 설계합니다.
+            </p>
+        </section>
+
+        <!-- ===== PANEL 3: PHILOSOPHY — MOON JAR & VALUES ===== -->
+        <section class="panel" id="panel-moonjar" data-nav="philosophy">
+            <div class="philosophy-story">
+                <div class="story-visual reveal-left">
+                    <video autoplay muted loop playsinline>
+                        <source src="mov/___1080p_202602081848_loop.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="story-content">
+                    <p class="story-label reveal reveal-delay-1">The Philosophy of Moon Jar</p>
+                    <p class="story-text reveal reveal-delay-2">
+                        조선 백자 달항아리는 위아래를 따로 만들어 붙입니다.
+                        그 과정에서 어쩔 수 없이 생기는 이음새와 일그러짐은 결함이 아니라
+                        '스스로 숨 쉬는 생명력'이 됩니다.
+                        <br><br>
+                        여백의 향수는 이 달항아리처럼,
+                        당신의 일상에 가장 편안하고 자연스러운 숨결을 불어넣습니다.
+                    </p>
+                    <div class="values-list reveal reveal-delay-3">
+                        <div class="value-item">
+                            <span class="value-num">01</span>
+                            <div class="value-body">
+                                <h4 class="value-title">Deep Layering</h4>
+                                <p class="value-sub">깊은 겹</p>
+                                <p class="value-desc">시간의 흐름에 따라 겹겹이 쌓이는 잔향의 미학.</p>
+                            </div>
+                        </div>
+                        <div class="value-item">
+                            <span class="value-num">02</span>
+                            <div class="value-body">
+                                <h4 class="value-title">Imperfect Beauty</h4>
+                                <p class="value-sub">비정형</p>
+                                <p class="value-desc">사람의 손길이 닿은 자연스러운 일그러짐.</p>
+                            </div>
+                        </div>
+                        <div class="value-item">
+                            <span class="value-num">03</span>
+                            <div class="value-body">
+                                <h4 class="value-title">Ultimate Void</h4>
+                                <p class="value-sub">여백</p>
+                                <p class="value-desc">비워냄으로써 완성되는 한국적 여백의 미.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== PANEL 4: SCENT 01 — Moon Soil ===== -->
+        <section class="panel scent-panel" id="panel-collection" data-scent="moon-soil" data-nav="collection">
+            <div class="scent-info">
+                <span class="scent-num reveal reveal-delay-1">Scent 01</span>
+                <h3 class="scent-name reveal reveal-delay-2">Moon Soil</h3>
+                <p class="scent-name-kr reveal reveal-delay-2">빚어내는 흙</p>
+                <p class="scent-notes reveal reveal-delay-3">Steamed Rice · White Clay</p>
+                <p class="scent-mood reveal reveal-delay-3">촉촉하고 고소한, 엄마의 품 같은 안정감.</p>
+                <span class="scent-type reveal reveal-delay-4">Skin Scent</span>
+                <div class="scent-swatch reveal reveal-delay-4">
+                    <span class="swatch" style="background: #F5F0E8;"></span>
+                    <span class="swatch" style="background: #E8DFD0;"></span>
+                    <span class="swatch" style="background: #D4C5B0;"></span>
+                </div>
+            </div>
+            <div class="scent-visual">
+                <div class="scent-video-wrap reveal">
+                    <video class="scent-video" autoplay muted loop playsinline>
+                        <source src="mov/___1080p_202601191905.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== PANEL 6: SCENT 02 — Kiln Breath ===== -->
+        <section class="panel scent-panel" data-scent="kiln-breath" data-nav="collection">
+            <div class="scent-info">
+                <span class="scent-num reveal reveal-delay-1">Scent 02</span>
+                <h3 class="scent-name reveal reveal-delay-2">Kiln Breath</h3>
+                <p class="scent-name-kr reveal reveal-delay-2">가마의 숨</p>
+                <p class="scent-notes reveal reveal-delay-3">Pink Pepper · Ink · Birch Tar</p>
+                <p class="scent-mood reveal reveal-delay-3">뜨겁고 건조한, 열정적이고 관능적인 매력.</p>
+                <span class="scent-type reveal reveal-delay-4">Smoky / Woody</span>
+                <div class="scent-swatch reveal reveal-delay-4">
+                    <span class="swatch" style="background: #3A2A1A;"></span>
+                    <span class="swatch" style="background: #5C3D2E;"></span>
+                    <span class="swatch" style="background: #8B4513;"></span>
+                </div>
+            </div>
+            <div class="scent-visual">
+                <div class="scent-video-wrap reveal">
+                    <video class="scent-video" autoplay muted loop playsinline>
+                        <source src="mov/___1080p_202601191923.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== PANEL 7: SCENT 03 — Void Air ===== -->
+        <section class="panel scent-panel" data-scent="void-air" data-nav="collection">
+            <div class="scent-info">
+                <span class="scent-num reveal reveal-delay-1">Scent 03</span>
+                <h3 class="scent-name reveal reveal-delay-2">Void Air</h3>
+                <p class="scent-name-kr reveal reveal-delay-2">비움의 공기</p>
+                <p class="scent-notes reveal reveal-delay-3">Morning Dew · Magnolia</p>
+                <p class="scent-mood reveal reveal-delay-3">차갑고 정적인, 명상할 때 맡고 싶은 향.</p>
+                <span class="scent-type reveal reveal-delay-4">Floral / Green</span>
+                <div class="scent-swatch reveal reveal-delay-4">
+                    <span class="swatch" style="background: #D4E5E0;"></span>
+                    <span class="swatch" style="background: #B8C9C4;"></span>
+                    <span class="swatch" style="background: #A0B8B0;"></span>
+                </div>
+            </div>
+            <div class="scent-visual">
+                <div class="scent-video-wrap reveal">
+                    <video class="scent-video" autoplay muted loop playsinline>
+                        <source src="mov/___1080p_202601191910.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== PANEL 8: LAYERING GUIDE ===== -->
+        <section class="panel panel--warm layering-panel" data-nav="collection">
+            <p class="section-label section-label--accent reveal">Fragrance Layering</p>
+            <h3 class="layering-title reveal reveal-delay-1">Layering Guide</h3>
+            <p class="layering-desc reveal reveal-delay-2">
+                단독 사용뿐 아니라, 섞어 썼을 때<br>새로운 무드가 창조되도록 설계했습니다.
+            </p>
+            <div class="layering-recipe reveal reveal-delay-3">
+                <span class="recipe-name">The Recipe of Rain</span>
+                <div class="recipe-mix">
+                    <span class="recipe-scent">Moon Soil</span>
+                    <span class="recipe-plus">+</span>
+                    <span class="recipe-scent">Void Air</span>
+                </div>
+                <p class="recipe-result">비 갠 뒤 젖은 흙내음</p>
+            </div>
+        </section>
+
+        <!-- ===== PANEL 9: CRAFT ===== -->
+        <section class="panel panel--dark craft-panel" id="panel-craft" data-nav="craft">
+            <div class="craft-bg">
+                <video class="craft-video" autoplay muted loop playsinline>
+                    <source src="mov/web/craft_bg.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="craft-content">
+                <div class="craft-header">
+                    <p class="section-label section-label--accent reveal">Design &amp; Craft</p>
+                    <h2 class="craft-title reveal reveal-delay-1">The Vessel</h2>
+                    <p class="craft-subtitle reveal reveal-delay-2">단순한 용기를 넘어선 미학적 오브제</p>
+                </div>
+                <div class="craft-concepts-list">
+                    <div class="craft-concept-item reveal reveal-delay-2">
+                        <span class="concept-num">Concept 01</span>
+                        <h3 class="concept-name">The Silhouette</h3>
+                        <p class="concept-key">Minimal &amp; Floating</p>
+                    </div>
+                    <div class="craft-concept-item reveal reveal-delay-3">
+                        <span class="concept-num">Concept 02</span>
+                        <h3 class="concept-name">The Material</h3>
+                        <p class="concept-key">Tactile &amp; Ceramic</p>
+                    </div>
+                    <div class="craft-concept-item reveal reveal-delay-4">
+                        <span class="concept-num">Concept 03</span>
+                        <h3 class="concept-name">The Fragment</h3>
+                        <p class="concept-key">Modern &amp; Contrast</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== PANEL 10: SPACE ===== -->
+        <section class="panel panel--dark space-panel" id="panel-space" data-nav="space">
+            <div class="space-bg">
+                <img src="img/space/chamber_v2.png" alt="Chamber of Void — 사유의 방" loading="lazy">
+            </div>
+            <div class="space-content">
+                <p class="space-title-en reveal">Chamber of Void</p>
+                <h2 class="space-title-kr reveal reveal-delay-1">사유의 방</h2>
+                <p class="space-desc reveal reveal-delay-2">
+                    판매 매장이 아닌 '전시/명상 공간'.
+                    신발을 벗고 들어가 일상과 단절하고,
+                    중앙에 놓인 거대한 달항아리 미디어 아트를 관람합니다.
+                </p>
+                <div class="space-features reveal reveal-delay-3">
+                    <div class="space-feature">
+                        <p class="space-feature-title">Barefoot</p>
+                        <p>일상과의 단절</p>
+                    </div>
+                    <div class="space-feature">
+                        <p class="space-feature-title">Media Art</p>
+                        <p>달항아리 미디어 아트</p>
+                    </div>
+                    <div class="space-feature">
+                        <p class="space-feature-title">Ceramic</p>
+                        <p>도자기 파편 시향</p>
+                    </div>
+                    <div class="space-feature">
+                        <p class="space-feature-title">Silence</p>
+                        <p>사유의 시간</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== PANEL 11: CONTACT ===== -->
+        <section class="panel panel--warm contact-panel" id="panel-contact" data-nav="contact">
+            <h2 class="contact-title reveal">침묵의 향이<br>당신에게 닿는 순간</h2>
+            <form class="contact-form reveal reveal-delay-1">
+                <input type="email" placeholder="이메일 주소" class="form-input" required>
+                <button type="submit" class="form-btn">Subscribe</button>
+            </form>
+            <p class="contact-sub reveal reveal-delay-2">뉴스레터를 구독하고 여백의 여정에 함께하세요.</p>
+            <div class="footer-line">
+                <p class="footer-brand">YEOBAEK</p>
+                <p class="footer-copy">&copy; 2026 Yeobaek. The Scent of Deep Silence.</p>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
